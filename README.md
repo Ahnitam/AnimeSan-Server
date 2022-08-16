@@ -17,4 +17,4 @@
 | RCLONE_CONFIG_DIR     | Diretorio do arquivo de configuração (Rclone)| **&#10003;**       |
 | RCLONE_DRIVE          | Nome do drive no rclone                      | **&#10003;**       |
 | DIR_DOWNLOAD          | Diretorio de download temporário             | **&#10007;**       |
-| DIR_COMPLETO          | Diretorio de download comcluido temporário   | **&#10007;**       |
+| DIR_COMPLETO          | Diretorio de download concluido temporário   | **&#10007;**       |
