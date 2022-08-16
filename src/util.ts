@@ -2,6 +2,7 @@ import { ChildProcessWithoutNullStreams } from "child_process";
 import { createWriteStream, existsSync, mkdirSync, unlink } from "fs";
 import https from "https";
 import "dotenv/config";
+import { join } from "path";
 
 const user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36";
 const firebase_config = {
@@ -10,8 +11,8 @@ const firebase_config = {
 	clientEmail: process.env.FIREBASE_CLIENT_EMAIL!,
 }
 
-const diretorio_download = process.env.DIR_DOWNLOAD!;
-const diretorio_completo = process.env.DIR_COMPLETO!;
+const diretorio_download = process.env.DIR_DOWNLOAD! || join(__dirname, "Download");
+const diretorio_completo = process.env.DIR_COMPLETO! || join(__dirname, "Completo");
 
 const diretorio_ffmpeg = process.env.FFMPEG_DIR!;
 const diretorio_mkvmerge = process.env.MKVMERGE_DIR!;
