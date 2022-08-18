@@ -1,10 +1,10 @@
-# AnimeSan
+# **AnimeSan**
 
-## Server para download de midias buscando do banco de dados firebase e movendo automaticamente para um serviço de armazenamento em nuvem
+#### Server para download de midias buscando do banco de dados firebase e movendo automaticamente para um serviço de armazenamento em nuvem
 
 ## **Variáveis de Ambiente**
 
-### Variaveis a serem utilizadas para iniciar o server
+#### Variaveis a serem utilizadas para iniciar o server
 
 | **Variável**          | **Descrição**                                | **Obrigatório?**   |
 | --------------------- | -------------------------------------------- | ------------------ |
